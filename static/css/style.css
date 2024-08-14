@@ -1,0 +1,34 @@
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #map,
+  body,
+  html {
+    height: 100%;
+  }
+  
+  .legend {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .legend h4 {
+    margin-top: 0;
+    font-weight: bold;
+  }
+  
+  
+  .legend i {
+    display: inline-block;
+    width: 40px; 
+    height: 10px; 
+    margin-right: 5px;
+  }
